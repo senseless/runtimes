@@ -328,7 +328,7 @@ jobs:
           done
 
       - name: Update system
-        run: sudo apt update --assume-yes npm nodejs
+        run: sudo apt update --assume-yes
 
       - name: Install node and npm
         run: sudo apt install --assume-yes npm nodejs
